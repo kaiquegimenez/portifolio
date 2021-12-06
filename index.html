@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="font-awesome/css/all.css" rel="stylesheet">
+  <title>Portfólio</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="align">
+      <div class="hamburguer">
+        <div class="line" id="line1"></div>
+        <div class="line" id="line2"></div>
+        <div class="line" id="line3"></div>
+        <span>fechar</span>
+      </div>
+    </div>
+
+    <header id="home">
+      <div class="img-wrapper">
+        <img src="imagens/dev.jpg" alt="">
+      </div>
+      <div class="banner">
+        <h1>Web Front End Developer</h1>
+        <p>Kaique da Silva Gimenez</p>
+        <a href="#conhecimentos"><button>Saiba mais</button></a>
+      </div>
+    </header>
+
+    <aside class="sidebar">
+      <nav>
+        <ul class="menu">
+          <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+          <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+          <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+          <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+          <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li>
+        </ul>
+      </nav>
+      <div class="social-media">
+        <li><a href="https://www.facebook.com/kaique.gimenez" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="https://github.com/kaiquegimenez" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/kaique-gimenez-489a39b9/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+      </div>
+    </aside>
+
+    <section class="sessao-conhecimentos" id="conhecimentos">
+      <div class="sessao-header">
+        <h1>Conhecimentos</h1>
+      </div>
+      <div class="conhecimentos">
+        <div class="conhecimentos-img-wrapper">
+          <img src="imagens/conhecimentos.png" alt="imagem conhecimento">
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-html5"></i>
+            <h3>HTML</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>HTML é uma linguagem de marcação utilizada na construção de páginas Web, pois é essa a linguagem
+              interpretada pelos navegadores. Com isso Utilizo O HTML para fazer a construção básica dos meus projetos.
+            </p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-css3-alt"></i>
+            <h3>CSS</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>CSS é uma linguagem de estilo utilizada para descrever a apresentação de um documento escrito em HTML.
+              Com isso utilizo o CSS para estilizar as páginas dos meus projetos.</p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-angular"></i>
+            <h3>Angular2+</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Angular é uma plataforma e framework para construção da interface de aplicações, a qual nos ajuda a criar 
+              Single-Page Applications com uma qualidade e produtividade surpeendente! Utilizo o Angular2+ em projetos maiores.</p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-js"></i>
+            <h3>Javascript</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web.
+              Utilizo o Javascript para construção de páginas Web não estáticas.</p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-vuejs"></i>
+            <h3>Vue.js</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Vue.js é um framework JavaScript de código-aberto, focado no desenvolvimento de interfaces de usuário e
+              aplicativos de página única. Utilizo ele em grandes projetos que necessitam funcionar me multiplas
+              plataformas</p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-github"></i>
+            <h3>Git e GitHub</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.
+              Utilizo para armazenamento e controle de versão dos meus projetos.</p>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="sessao-projetos" id="projetos">
+      <div class="sessao-header">
+        <h1>Projetos</h1>
+      </div>
+      <div class="projetos">
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="imagens/cinema.jpg" alt="imagem do projeto Cinema" />
+          </div>
+          <div class="card-info">
+            <h2>Cinema</h2>
+            <h3>HTML e CSS</h3>
+            <p>Projeto feito com HTML e CSS onde mostra a sinópse, elenco, trailer, ano de lançamento, entre outras
+              informaçãoes do filme O senhor dos Anéis.</p>
+            <button onclick="window.open('https://github.com/kaiquegimenez/cinema','_blank')" class="btn">Saiba Mais</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="imagens/banco.jpg" alt="imagem do projeto Banco KG" />
+          </div>
+          <div class="card-info">
+            <h2>Banco KG</h2>
+            <h3>HTML e Javascript</h3>
+            <p>Projeto desenvolvido em HTML e Javascript o qual simula funções de saque e depósito de uma conta corrente
+              e mostra as informações de todas as movimentações realizadas.</p>
+            <button onclick="window.open('https://github.com/kaiquegimenez/bank','_blank')" class="btn">Saiba Mais</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="imagens/portfolio.jpg" alt="imagem do projeto Portfólio" />
+          </div>
+          <div class="card-info">
+            <h2>Portfólio</h2>
+            <h3>HTML, CSS, Javascript</h3>
+            <p>Projeto feito para mostrar os projetos desenvolvidos na disciplina. </p>
+            <button class="btn">Saiba Mais</button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="sessao-contato" id="contato">
+      <div class="contato-wrapper">
+        <div class="contato-left"></div>
+        <div class="contato-right">
+          <h1>Contato</h1>
+          <form id="#formContato">
+            <div class="input-group">
+              <input type="text" class="field" id="#nome">
+              <label for="nome" class="field-label">Nome</label>
+            </div>
+            <div class="input-group">
+              <input type="text" class="field" id="#email">
+              <label for="email" class="field-label">E-mail</label>
+            </div>
+            <div class="input-group">
+              <textarea class="field" id="#mensagem"></textarea>
+              <label for="mensagem" class="field-label">Mensagem</label>
+            </div>
+            <button type="submit" class="btn btn-submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="sessao-orcamento" id="orcamento">
+      <div class="orcamento-wrapper">
+        <h1>Faça um orçamento</h1>
+        <form id="formOrcamento">
+          <label for="qtde">Qtde de Páginas</label>
+          <input type="number" min="1" name="qtde" value="1" id="qtde">
+          <label for="js">Preciso de um script JS</label>
+          <input type="checkbox" name="js" id="js">
+          <label>Layout</label>
+          <div class="group-layout">
+            <div>
+              <input type="radio" name="layout" id="layout-sim">
+              <label for="layout-sim">Preciso de um layout</label>
+            </div>
+            <div>
+              <input type="radio" name="layout" id="layout-nao">
+              <label for="layout-nao">Já tenho um layout</label>
+            </div>
+          </div>
+          <label for="prazo">Prazo</label>
+          <input type="range" name="prazo" id="prazo" min="1" max="10">
+          <label id="preco">R$ 0,00</label>
+          <button class="btn btn-orcamento" type="submit">Enviar</button>
+        </form>
+      </div>
+      <div class="orcamento-table">
+        <h1>Seus orçamentos</h1>
+        <table class="table">
+          <thead id="#tableHead">
+            <tr>
+              <th>Páginas</th>
+              <th>Layout</th>
+              <th>JavaScript</th>
+              <th>Prazo</th>
+              <th>Valor</th>
+            </tr>
+          </thead>
+          <tbody id="#tableBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <p>
+          Copyright &copy; 2020, ETECIA DS - Todos os diretos reservados
+        </p>
+        <div class="social-list">
+          <ul>
+            <li><a href="https://www.facebook.com/kaique.gimenez" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://github.com/kaiquegimenez" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/kaique-gimenez-489a39b9/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <a href="#home" id="link-topo">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+</body>
+<script src="constroiTable.js"></script>
+<script src="script.js"></script>
+
+</html>
